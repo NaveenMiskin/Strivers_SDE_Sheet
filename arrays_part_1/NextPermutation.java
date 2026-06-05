@@ -1,6 +1,8 @@
 package arrays_part_1;
 
 public class NextPermutation {
+
+    // TC O(n);
     public void swap(int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
