@@ -1,6 +1,6 @@
 package arrays_part_1;
 
-public class SetMatrixToZeros {
+public class P1_SetMatrixToZeros {
 
     // Brute force (m * n) + O(m * n) = O(m * n)
     public void setZeroes_BruteForce_solu(int[][] matrix) {
@@ -69,7 +69,7 @@ public class SetMatrixToZeros {
     }
 
     public static void main(String[] args) {
-        SetMatrixToZeros setMatrixToZeros = new SetMatrixToZeros();
+        P1_SetMatrixToZeros setMatrixToZeros = new P1_SetMatrixToZeros();
 
         int[][] matrix = { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
 
