@@ -1,6 +1,6 @@
-package arrays_part_1;
+package arrays_part_1.Day_2;
 
-public class sort_array_of_0s_1s_2s {
+public class P5_sortArrayOf_0s_1s_2s {
 
     //   Dutch National Flag Algorithm.......................
 

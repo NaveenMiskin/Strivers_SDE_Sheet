@@ -1,6 +1,6 @@
-package arrays_part_1;
+package arrays_part_1.Day_2;
 
-public class KadanesAlgo_sub_array_sum {
+public class P4_KadanesAlgoSubArraySum {
     public int maxSubArray(int[] nums) {
         int max = Integer.MIN_VALUE;
         int sum = 0;

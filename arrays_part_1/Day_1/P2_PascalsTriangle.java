@@ -3,7 +3,7 @@ package arrays_part_1.Day_1;
 import java.util.ArrayList;
 import java.util.List;
 
-class P2_PascalsTriangle {
+public class P2_PascalsTriangle {
 
     public List<List<Integer>> generate(int numRows) {
         

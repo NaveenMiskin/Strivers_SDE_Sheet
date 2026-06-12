@@ -1,4 +1,4 @@
-package arrays_part_1;
+package arrays_part_1.Day_1;
 
 public class P1_SetMatrixToZeros {
 

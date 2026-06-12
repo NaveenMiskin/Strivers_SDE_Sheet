@@ -1,6 +1,6 @@
-package arrays_part_1;
+package arrays_part_1.Day_2;
 
-public class StockBuyandSell {
+public class P6_StockBuyandSell {
     
     public int maxprofit(int[] prices) {
         int buyDay = prices[0];

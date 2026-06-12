@@ -1,6 +1,6 @@
-package arrays_part_2;
+package arrays_part_2.Day_3;
 
-public class P7_Rotate_matrix_90degree {
+public class P7_RotateMatrix_90_Degree {
     public void transpose(int[][] arr){
         int m = arr.length;
         int n = arr[0].length;
