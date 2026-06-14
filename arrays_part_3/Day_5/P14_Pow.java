@@ -1,7 +1,7 @@
 package arrays_part_3.Day_5;
 
 public class P14_Pow {
-    // TC = O(n)
+    // TC = O(logN)
     public double myPow(double x, int n) {
         if(n == 0) return 1.0;
         if(x == 0) return 0.0;
