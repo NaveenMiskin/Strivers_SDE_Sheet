@@ -42,6 +42,8 @@ public class P36_FlatteingLL {
         return dNode.bottom;
     }
 
+    // TC -> O(n * m)
+    // SC -> O(n) for recursive stack space..
 
     public Node mergeLL(Node list1, Node list2){
         Node dNode = new Node(-1);
@@ -69,7 +71,7 @@ public class P36_FlatteingLL {
     
     
     Node flatten(Node root) {
-        
+
         if(root == null || root.next == null){
             return root;
         }
