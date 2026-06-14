@@ -2,6 +2,8 @@ package arrays_part_2.Day_3;
 
 public class P9_MergeTwoSortedArrays {
 
+    // TC -> O(NlogN)
+    // SC -> O(N)
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m-1;
         int j = n-1;
