@@ -9,7 +9,7 @@ public class P17_UniquePath {
     return uniquePaths_Helper(i + 1, j, m, n) + uniquePaths_Helper(i, j + 1, m, n);
 }
     public int uniquePaths_BF(int m, int n) {
-        
+
         return uniquePaths_Helper(0, 0, m, n);
     }
 
@@ -27,5 +27,16 @@ public class P17_UniquePath {
         }
         
         return (int) Math.round(res);
+    }
+
+    public int uniquePaths_another_approach(int m, int n) {
+        int N = m + n - 2;
+        int r = m - 1;
+        double res = 1;
+
+        for(int i=1; i <= r; i++) {
+            res = res * (N - r + i) / i;
+        }
+        return (int)res;
     }
 }
