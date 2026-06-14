@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class P8_MergeIntervels {
 
+    // TC -> O(nlogn) + O(n) + O(n)
+    // SC -> O(n)
     public int[][] merge(int[][] intervals) {
 
         Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
