@@ -3,17 +3,14 @@ package arrays_part_3.Day_6;
 public class P17_UniquePath {
     // Brute Force
     // TC O(2 ^ m + n)
-    public int func(int i, int j) {
-        if(i == 0 && j == 0) return 1;
-        if(i < 0 || j < 0) return 0;
-        int up = func(i-1, j);
-        int left = func(i, j-1);
-        return up + left;
-    }
+    private int uniquePaths_Helper(int i, int j, int m, int n) {
+    if (i == m - 1 && j == n - 1) return 1;
+    if (i >= m || j >= n) return 0;
+    return uniquePaths_Helper(i + 1, j, m, n) + uniquePaths_Helper(i, j + 1, m, n);
+}
     public int uniquePaths_BF(int m, int n) {
-        int i = m-1;
-        int j = n-1;
-        return func(i, j); 
+        
+        return uniquePaths_Helper(0, 0, m, n);
     }
 
     // optimal solution..
