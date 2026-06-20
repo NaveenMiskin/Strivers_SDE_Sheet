@@ -2,7 +2,7 @@ package Linked_List.Day_9;
 
 import java.util.ArrayList;
 
-public class P27_MergeTwoSortedArray {
+public class P27_MergeTwoSortedList {
 
     // Brute Force
     // TC -> O(n + n + nlogn + n)
